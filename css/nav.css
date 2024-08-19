@@ -1,0 +1,102 @@
+.navbar {
+    padding: 0 10px 15px 10px;
+    overflow-y: scroll;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 62.4px;
+    width: 247px;
+    z-index: 100;
+    background-color: white;
+}
+
+.youtube-links {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1px;
+    text-decoration: none;
+    padding: 7px 10px;
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.youtube-links:hover {
+    background-color: rgb(233, 231, 231);
+}
+
+.youtube-links:active {
+    background-color: rgb(207, 205, 205);
+}
+
+.youtube-links-img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+
+.youtube-link-text {
+    margin-left: 25px;
+    font-size: 14px;
+    color: black;
+}
+
+.youtube-link-title {
+    color: black;
+    font-weight: 500;
+}
+
+.youtube-link-margin-lb {
+    margin-left: 15px;
+    margin-bottom: 7px;
+}
+
+.navbar-links {
+    font-size: 13px;
+    padding: 0 25px 0 10px;
+    margin-bottom: 15px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: rgb(28, 26, 26);
+}
+
+.navbar-link {
+    margin-left: 4px;
+    line-height: 18px;
+}
+
+.navbar-links-two {
+    font-size: 13px;
+    padding: 0 25px 0 10px;
+}
+
+.navbar-links-two ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    padding-bottom: 10px;
+}
+
+.navbar-links-two a {
+    text-decoration: none;
+    color: rgb(28, 26, 26);
+}
+
+.navbar-footer-text {
+    color: grey;
+    font-size: 11px;
+    padding: 0px 25px 0 15px;  
+}
+
+.border-bottom {
+    border-bottom: 1px solid rgb(218, 217, 217);
+    width: 230px;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+}
+
+.responsive-navbar {
+    display: none;
+}

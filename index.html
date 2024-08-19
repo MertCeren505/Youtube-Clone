@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="left-side">
+            <button class="header-menu-icon">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <a href="https://www.youtube.com/" class="youtube-icon">
+                <i class="fa-brands fa-youtube"></i>
+                <span class="youtube-logo">YouTube</span>
+                <div class="youtube-logo-tr">TR</div>
+            </a>
+        </div>
+        <div class="middle">
+            <input type="text" placeholder="Ara" class="searchbar">
+            <button class="middle-search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <div class="search-icon-hover">Ara</div>
+            </button>
+            <button class="middle-mic-icon">
+                <i class="fa-solid fa-microphone"></i>
+                <div class="mic-icon-hover">Sesle arama yapın</div>
+            </button>
+        </div>
+        <div class="right-side">
+            <button class="right-ellipsis-icon">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+                <div class="right-ellipsis-hover">Ayarlar</div>
+            </button>
+            <button class="right-profile">
+                <i class="fa-regular fa-user"></i>
+                <div class="right-profile-text">Oturum aç</div>
+            </button>
+        </div>
+    </header>
+    <nav>
+        <div class="navbar">
+            <div class="border-bottom">
+                <a href="#" class="youtube-links">
+                    <img src="/img/thin-house.png" alt="thin-house" class="youtube-links-img">
+                    <span class="youtube-link-text">Ana Sayfa</span>
+                </a>
+                <a href="#" class="youtube-links">
+                    <img src="/img/thin-youtube-shorts.png" alt="thin-youtube-shorts" class="youtube-links-img">
+                    <div class="youtube-link-text">Shorts</div>
+                </a>
+                <a href="#" class="youtube-links">
+                    <img src="/img/thin-youtube-subscriptions.png" alt="thin-youtube-subscriptions" class="youtube-links-img">
+                    <div class="youtube-link-text">Abonelikler</div>
+                </a>
+            </div>
+            <div class="border-bottom">
+                <a href="#" class="youtube-links">
+                    <div class="youtube-link-title">Siz</div>
+                    <i class="fa-solid fa-chevron-right" style="color: black; margin-left: 15px; font-size: 12px;"></i>
+                </a>
+                <a href="#" class="youtube-links">
+                    <img src="/img/youtube-past.png" alt="youtube-past" class="youtube-links-img">
+                    <div class="youtube-link-text">Geçmiş</div>
+                </a>
+                <a href="#" class="youtube-links">
+                    <img src="/img/youtube-playlist.png" alt="youtube-playlist" class="youtube-links-img">
+                    <div class="youtube-link-text">Oynatma listeleri</div>
+                </a>
+                <a href="#" class="youtube-links">
+                    <img src="/img/thin-youtube-clock.png" alt="thin-youtube-clock" class="youtube-links-img">
+                    <div class="youtube-link-text">Daha sonra izle</div>
+                </a>
+                <a href="#" class="youtube-links">
+                    <img src="/img/thin-youtube-like.png" alt="thin-youtube-like" class="youtube-links-img">
+                    <div class="youtube-link-text">Beğendiğim videolar</div>
+                </a>
+            </div>
+            <div class="youtube-link-title youtube-link-margin-lb">Keşfet</div>
+            <div class="border-bottom">
+                <a href="#" class="youtube-links">
+                    <img src="/img/thin-youtube-fire.png" alt="thin-youtube-fire" class="youtube-links-img">
+                    <div class="youtube-link-text">Trendler</div>
+                </a>
+                <a href="#" class="youtube-links">
+                    <img src="/img/thin-youtube-music.png" alt="thin-youtube-music" class="youtube-links-img">
+                    <div class="youtube-link-text">Müzik</div>
+                </a>
+                <a href="#" class="youtube-links">
+                    <img src="/img/thin-youtube-live.png" alt="thin-youtube-live" class="youtube-links-img">
+                    <div class="youtube-link-text">Canlı</div>
+                </a>
+                <a href="#" class="youtube-links">
+                    <img src="/img/thin-youtube-game.png" alt="thin-youtube-game" class="youtube-links-img">
+                    <div class="youtube-link-text">Oyun</div>
+                </a>
+                <a href="#" class="youtube-links">
+                    <img src="/img/thin-youtube-sport.png" alt="thin-youtube-sport" class="youtube-links-img">
+                    <div class="youtube-link-text">Spor</div>
+                </a>
+            </div>
+            <div class="youtube-link-title youtube-link-margin-lb">YouTube'dan daha fazla...</div>
+            <div class="border-bottom">
+                <a href="#" class="youtube-links">
+                    <img src="/img/youtube-logo-color.png" alt="youtube-logo-color" class="youtube-links-img">
+                    <div class="youtube-link-text">YouTube Premium</div>
+                </a>
+                <a href="#" class="youtube-links">
+                    <img src="/img/youtube-music-color.png" alt="youtube-music-color" class="youtube-links-img">
+                    <div class="youtube-link-text">YouTube Music</div>
+                </a>
+                <a href="#" class="youtube-links">
+                    <img src="/img/youtube-kids-color.png" alt="youtube-kids-color" class="youtube-links-img">
+                    <div class="youtube-link-text">YouTube Kids</div>
+                </a>
+            </div>
+            <div class="border-bottom">
+                <a href="#" class="youtube-links">
+                    <img src="/img/thin-youtube-settings.png" alt="thin-youtube-settings" class="youtube-links-img">
+                    <div class="youtube-link-text">Ayarlar</div>
+                </a>
+                <a href="#" class="youtube-links">
+                    <img src="/img/thin-youtube-flag.png" alt="thin-youtube-flag" class="youtube-links-img">
+                    <div class="youtube-link-text">İçerik bildirme geç...</div>
+                </a>
+                <a href="#" class="youtube-links">
+                    <img src="/img/thin-youtube-help.png" alt="thin-youtube-help" class="youtube-links-img">
+                    <div class="youtube-link-text">Yardım</div>
+                </a>
+                <a href="#" class="youtube-links">
+                    <img src="/img/thin-youtube-feedback.png" alt="thin-youtube-feedback" class="youtube-links-img">
+                    <div class="youtube-link-text">Geri bildirim gönder</div>
+                </a>
+            </div>
+            <div class="navbar-links">
+                <a href="#" class="navbar-link">Hakkında</a>
+                <a href="#" class="navbar-link">Basın</a>
+                <a href="#" class="navbar-link">Telif hakkı</a>
+                <a href="#" class="navbar-link">Bize ulaşın</a>
+                <a href="#" class="navbar-link">İçerik</a>
+                <a href="#" class="navbar-link">Üreticiler</a>
+                <a href="#" class="navbar-link">Reklam verme</a>
+                <a href="#" class="navbar-link">Geliştiriciler</a>
+            </div>
+            <div class="navbar-links-two">
+                <a href="#" class="navbar-link">Şartlar</a>
+                <a href="#" class="navbar-link">Gizlilik</a>
+                <ul>
+                    <li><a href="#" class="navbar-link">Politika ve Güvenlik</a></li>
+                    <li><a href="#" class="navbar-link">Youtube Nasıl Çalışıyor?</a></li>
+                    <li><a href="#" class="navbar-link">Yeni özellikleri deneyin</a></li>
+                </ul>
+            </div>
+            <span class="navbar-footer-text">&#169; 2024 Google LLC</span>
+        </div>
+        <div class="responsive-navbar">
+            <a href="#">
+                <img src="/img/thin-house.png" alt="thin-house" class="youtube-links-img">
+                <div class="responsive-navbar-text">Ana Sayfa</div>
+            </a>
+            <a href="#">
+                <img src="/img/thin-youtube-shorts.png" alt="thin-youtube-shorts" class="youtube-links-img">
+                <div class="responsive-navbar-text">Shorts</div>
+            </a>
+            <a href="#">
+                <img src="/img/thin-youtube-subscriptions.png" alt="thin-youtube-subscriptions" class="youtube-links-img">
+                <div class="responsive-navbar-text">Abonelikler</div>
+            </a>
+            <a href="#">
+                <img src="/img/youtube-you.png" alt="youtube-you" class="youtube-links-img">
+                <div class="responsive-navbar-text">Siz</div>
+            </a>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <a href="" class="card">
+                <div class="card-header">
+                    <img src="/img/youtube-clone-video1.jpg" alt="youtube-clone-video1" class="card-video">
+                    <div class="card-body-info-icon">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <img src="/img/profile.jpeg" alt="profile" class="card-body-img">
+                    <div class="card-body-info">
+                        <div class="card-title">YouTube Clone with HTML and CSS</div>
+                        <div class="card-text"> Mert CEREN</div>
+                        <div class="card-text"> 300 görüntüleme <span class="card-text-dot">&#183;</span> 1 gün önce</div>
+                    </div>
+                </div>
+            </a>
+            <a href="" class="card">
+                <div class="card-header">
+                    <img src="/img/youtube-clone-video2.jpg" alt="youtube-clone-video2" class="card-video">
+                    <div class="card-body-info-icon">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <img src="/img/profile2.jpg" alt="profile2" class="card-body-img">
+                    <div class="card-body-info">
+                        <div class="card-title">La Dolce Vita</div>
+                        <div class="card-text"> Earl</div>
+                        <div class="card-text"> 1,8 Mn görüntüleme <span class="card-text-dot">&#183;</span> 1 yıl önce</div>
+                    </div>
+                </div>
+            </a>
+            <a href="" class="card">
+                <div class="card-header">
+                    <img src="/img/youtube-clone-video3.jpg" alt="youtube-clone-video3" class="card-video">
+                    <div class="card-body-info-icon">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <img src="/img/profile3.webp" alt="profile3" class="card-body-img">
+                    <div class="card-body-info">
+                        <div class="card-title">Midnight</div>
+                        <div class="card-text"> Daisy</div>
+                        <div class="card-text"> 18 Mn görüntüleme <span class="card-text-dot">&#183;</span> 4 yıl önce</div>
+                    </div>
+                </div>
+            </a>
+            <a href="" class="card">
+                <div class="card-header">
+                    <img src="/img/youtube-clone-video4.jpg" alt="youtube-clone-video4" class="card-video">
+                    <div class="card-body-info-icon">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <img src="/img/profile4.jpg" alt="profile4" class="card-body-img">
+                    <div class="card-body-info">
+                        <div class="card-title">Historical Documentary</div>
+                        <div class="card-text"> Boris</div>
+                        <div class="card-text"> 3,4 Mn görüntüleme <span class="card-text-dot">&#183;</span> 2 yıl önce</div>
+                    </div>
+                </div>
+            </a>
+            <a href="" class="card">
+                <div class="card-header">
+                    <img src="/img/youtube-clone-video5.jpg" alt="youtube-clone-video5" class="card-video">
+                    <div class="card-body-info-icon">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <img src="/img/profile5.jpg" alt="profile5" class="card-body-img">
+                    <div class="card-body-info">
+                        <div class="card-title">Clownfish</div>
+                        <div class="card-text"> Nemo</div>
+                        <div class="card-text"> 25 B görüntüleme <span class="card-text-dot">&#183;</span> 1 ay önce</div>
+                    </div>
+                </div>
+            </a>
+            <a href="" class="card">
+                <div class="card-header">
+                    <img src="/img/youtube-clone-video6.jpeg" alt="youtube-clone-video6" class="card-video">
+                    <div class="card-body-info-icon">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <img src="/img/profile6.jpg" alt="profile6" class="card-body-img">
+                    <div class="card-body-info">
+                        <div class="card-title">Dressing</div>
+                        <div class="card-text"> Tatum</div>
+                        <div class="card-text"> 2,7 Mn görüntüleme <span class="card-text-dot">&#183;</span> 5 yıl önce</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </main>
+    <script src="https://kit.fontawesome.com/0ccd03b145.js" crossorigin="anonymous"></script>
+</body>
+</html>

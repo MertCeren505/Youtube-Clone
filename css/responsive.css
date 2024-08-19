@@ -1,0 +1,100 @@
+@media (max-width: 564px) {
+    .searchbar {
+        display: none;
+    }
+    .middle-search-icon {
+        padding: 10px 11px;
+        border-radius: 50%;
+    }
+    .header-menu-icon {
+        display: none;
+    }
+    .right-profile {
+        padding: 7px 8px;
+    }
+    .right-profile:hover {
+        padding: 7px 9px;
+    }
+    .right-profile-text {
+        display: none;
+    }
+    .middle {
+        justify-content: end;
+    }
+    .right-side {
+        width: 130px;
+    }
+}
+
+@media (max-width: 1295px) {
+    body {
+        padding-left: 100px;
+    }
+    .navbar {
+        display: none;
+    }
+    .responsive-navbar {
+        display: flex;
+        flex-direction: column;
+        padding: 0 4px;
+        position: fixed;
+        left: 0;
+        top: 62.4px;
+        width: 70px;
+        height: 100%;
+        border-right: 1px solid rgb(218, 217, 217);
+        z-index: 100;
+        background-color: white;
+    }
+    .responsive-navbar a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1px;
+        text-decoration: none;
+        padding: 7px 10px;
+        width: 50px;
+        height: 58px;
+        border-radius: 10px;
+    }
+    .responsive-navbar a:hover {
+        background-color: rgb(233, 231, 231);
+    }
+    .responsive-navbar a:active {
+        background-color: rgb(207, 205, 205);
+    }
+    .responsive-navbar-text {
+        font-size: 10px;
+        margin-top: 7px;
+        color: black;
+    }
+}
+
+@media (max-width: 792px) {
+    body {
+        padding-left: 4px;
+    }
+    .responsive-navbar {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .card {
+        width: 75%;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1100px) {
+    .card {
+        width: 48%;
+    }
+}
+
+@media (min-width: 1100px) {
+    .card {
+        width: 32%;
+    }
+
+}
